@@ -94,6 +94,9 @@ Everytime user enter a url start with http, user will only get the local html fi
 Moreover, if you only want to replace certain url on target side, you can modify the replacehtml.py file in line 14, set a certian condition like ( if flow.request.url.startswith("http://weevil.info"); so everytime, if user trying to access "http://weevil.info", it will response the user by the local html that you wrote.
 
 
+# Moreover
+The addons file are the examples by: https://github.com/mitmproxy/mitmproxy/tree/master/examples like extensions you can use with mitmproxy. There certainly more things you can play with it !!
+
 
 
 
@@ -113,6 +116,8 @@ https://docs.mitmproxy.org/stable/
 http://scratchpads.eu/explore/sites-list
 
 https://github.com/mitmproxy/mitmproxy/tree/master/examples
+
+https://docs.mitmproxy.org/stable/addons-overview/
 
 https://stackoverflow.com/questions/34677062/return-custom-response-with-mitmproxy
 
