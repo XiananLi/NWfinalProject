@@ -21,9 +21,15 @@ cd mitmproxy
 . venv/bin/activate  # "venv\Scripts\activate" on Windows
 mitmdump --version
 The version can be replace by:
-mitmdump, mitmproxy, mitmweb, pathod, and pathoc
+mitmdump, mitmproxy, mitmweb, pathod, and pathoc (depend on which interface you want to use)
 
-depend on which interface you want to use
+# Before Hacking:
+On the computer which install the mitmproxy, use ifconfig to get the inet address under the same WIFI condition as target
+for example: under CSLabs WIFLI, my inet address is 192.168.11.81
+So we set up target computer web proxy: 192.168.11.81, and port 8080
+
+# Start Hacking:
+
 
 
 
