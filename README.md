@@ -20,7 +20,7 @@ cd mitmproxy
 ./dev.sh 
 . venv/bin/activate  # "venv\Scripts\activate" on Windows
 mitmdump --version
-The version can be replace by:
+The "mitmdump --version" can be replace by:
 mitmdump, mitmproxy, mitmweb, pathod, and pathoc (depend on which interface you want to use)
 
 # Before Hacking:
@@ -32,6 +32,12 @@ So we set up target computer web proxy: 192.168.11.81, and port 8080
 
 # Start Hacking(Two main examples):
 1. Replace pictures
+
+a. Random picctures, and name it as "mi.png" (that's what I wrote in replacepic.py file; and save it in the mitmproxy file
+b. Run mitmproxy program by using command: 
+. venv/bin/activate
+mitmproxy -s replacepic.py
+
 
 
 
