@@ -34,19 +34,37 @@ The "mitmdump --version" command can be replace by:
 
 mitmdump, mitmproxy, mitmweb, pathod, and pathoc (depend on which interface you want to use)
 
+my example will be mainly focus on mitmproxy
+
 # Before Hacking:
-On the computer which install the mitmproxy, use ifconfig to get the inet address under the same WIFI condition as target
+
+
+******** MAKE SURE YOUR COMPUTER AND TARGET COMPUTER ARE USING SAME WIFI ********
+
+
+<b> Set up web proxy </b>
+  
+On your computer, use terminal ifconfig to get the inet address under the same WIFI condition as target
 
 for example: under CSLabs WIFLI, my inet address is 192.168.11.xx
 
-So we set up target computer web proxy: 192.168.11.xx, and port 8080
+So we set up target computer network setting advanced change web proxy to: 192.168.11.xx, and port 8080
 
-Download the replacepic.py and replacehtml.py in the mitmproxy file
+<b> Prepare replacement file </b>
+
+Find a random picture, name it as "mi.png", save the file in the mitmproxy file 
+
+**** naming is important, see more specific info in replacepic.py line 13)  ****
+
+Write a html file, name it as "replace.html", save the file in the mitmproxy file, you can also use replace.html I wrote above
+
+**** naming is important, see more specific info in replacehtml.py line 15)  ****
+
 
 # Start Hacking(Two main examples):
 1. Replace pictures
 
-a. Find a random picctures, and name it as "mi.png" (that's what I wrote in replacepic.py file)
+a. Find a random pictures, and name it as "mi.png" (that's what I wrote in replacepic.py file)
 
 and you have save it in the mitmproxy file(make sure)
 
