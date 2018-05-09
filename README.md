@@ -79,7 +79,7 @@ Everytime user enter a url start with http:// the replacepic.py will replace all
 
 
 
-2. Replacehtml
+<b>Replacehtml</b>
 
 cd mitmproxy
 
