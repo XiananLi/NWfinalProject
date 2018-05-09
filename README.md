@@ -1,5 +1,8 @@
 # NWfinalProject
 Download Python man in the middle;
 
-Modify the mitm: change any web pages arbitrary things like
-change the word, change url, string to another string
+Using the mitm(man in the middle) to inject the package from users and server and modify the request or response content
+
+This is the main page to introduce and download the mitmproxy: https://mitmproxy.org/
+
+
