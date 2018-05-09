@@ -6,21 +6,13 @@ Using the mitm(man in the middle) to inject the package from users and server an
 # Set up Mitmproxy
 This is the main page to introduce and download the mitmproxy: https://mitmproxy.org/
 
-<b> 1) Before install Development Setup required package from python: </b>
-
-Hugo
-
-modd
-
-yarn
-
-<b> 2) Install mitmproxy:  </b>
+<b> 1) Install mitmproxy:  </b>
 
 brew install mitmproxy
 
 pip3 install mitmproxy
 
-<b> 3) Set up to start mitmproxy:  </b>
+<b> 2) Set up to start mitmproxy:  </b>
 
 cd mitmproxy
 
@@ -87,7 +79,7 @@ http://scratchpads.eu/explore/sites-list
 
 
 
-<b>Replacehtml</b>
+<b>Example 2 Replacehtml</b>
 
 cd mitmproxy
 
@@ -113,11 +105,14 @@ Moreover, if you only want to replace certain url on target side, you can modify
 
 
 
-
 # References:
 https://mitmproxy.org/
 
-https://github.com/mitmproxy/mitmproxy/blob/master/README.rst
+https://docs.mitmproxy.org/stable/
 
 http://scratchpads.eu/explore/sites-list
+
+https://github.com/mitmproxy/mitmproxy/tree/master/examples
+
+https://stackoverflow.com/questions/34677062/return-custom-response-with-mitmproxy
 
