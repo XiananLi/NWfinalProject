@@ -25,11 +25,13 @@ mitmdump, mitmproxy, mitmweb, pathod, and pathoc (depend on which interface you 
 
 # Before Hacking:
 On the computer which install the mitmproxy, use ifconfig to get the inet address under the same WIFI condition as target
+
 for example: under CSLabs WIFLI, my inet address is 192.168.11.81
 
 So we set up target computer web proxy: 192.168.11.81, and port 8080
 
-# Start Hacking:
+# Start Hacking(Two main examples):
+1. Replace pictures
 
 
 
@@ -38,7 +40,10 @@ So we set up target computer web proxy: 192.168.11.81, and port 8080
 
 
 
-References:
+
+
+
+# References:
 https://mitmproxy.org/
 https://github.com/mitmproxy/mitmproxy/blob/master/README.rst
 
