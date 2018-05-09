@@ -75,7 +75,15 @@ mitmproxy -s replacepic.py
 
 hit ENTER
 
-Everytime user enter a url start with http:// the replacepic.py will replace all the images by the image that you chosen
+Everytime user enter a url start with http (https are too diffcult to deconde and encode for reponse)
+
+the replacepic.py will replace all the images by the image that you chosen
+
+
+<b>Here is a list of website list start with http</b>
+http://scratchpads.eu/explore/sites-list
+
+**** Sometime it will have cache in the website, so use website force cache refresh or restart the browser ****
 
 
 
@@ -110,4 +118,6 @@ Moreover, if you only want to replace certain url on target side, you can modify
 https://mitmproxy.org/
 
 https://github.com/mitmproxy/mitmproxy/blob/master/README.rst
+
+http://scratchpads.eu/explore/sites-list
 
