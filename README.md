@@ -21,6 +21,7 @@ brew install mitmproxy
 pip3 install mitmproxy
 
 3) Set up to start mitmproxy:
+
 cd mitmproxy
 
 ./dev.sh 
