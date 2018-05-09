@@ -3,16 +3,16 @@ Download Python man in the middle
 Using the mitm(man in the middle) to inject the package from users and server and modify the request or response content
 
 
-* Set up Mitmproxy
+# Set up Mitmproxy
 This is the main page to introduce and download the mitmproxy: https://mitmproxy.org/
 
-<b> 1) Install mitmproxy:  </b>
+* <b> 1) Install mitmproxy:  </b>
 
 brew install mitmproxy
 
 pip3 install mitmproxy
 
-<b> 2) Set up to start mitmproxy:  </b>
+* <b> 2) Set up to start mitmproxy:  </b>
 
 cd mitmproxy
 
@@ -30,13 +30,13 @@ my example will be mainly focus on mitmproxy
 
 
 
-* Before Hacking:
+# Before Hacking:
 
 
 **** MAKE SURE YOUR COMPUTER AND TARGET COMPUTER ARE USING SAME WIFI ****
 
 
-<b> Set up web proxy </b>
+* <b> Set up web proxy </b>
   
 On your computer, use terminal ifconfig to get the inet address
 
@@ -44,7 +44,7 @@ for example: under CSLabs WIFLI, my inet address is 192.168.11.xx
 
 So we set up target computer network setting advanced change web proxy to: 192.168.11.xx, and port 8080
 
-<b> Prepare replacement file </b>
+* <b> Prepare replacement file </b>
 
 Find a random picture, name it as "mi.png", save the file in the mitmproxy file 
 
@@ -57,9 +57,9 @@ Write a html file, name it as "replace.html", save the file in the mitmproxy fil
 
 
 
-* Start Hacking(Two main examples):
+# Start Hacking(Two main examples):
 
-<b> Exmaple 1 Replace pictures </b>
+* <b> Exmaple 1 Replace pictures </b>
 
 cd mitmproxy
 
@@ -83,7 +83,7 @@ http://scratchpads.eu/explore/sites-list
 
 
 
-<b>Example 2 Replacehtml</b>
+* <b>Example 2 Replacehtml</b>
 
 cd mitmproxy
 
