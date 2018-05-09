@@ -39,12 +39,12 @@ my example will be mainly focus on mitmproxy
 # Before Hacking:
 
 
-******** MAKE SURE YOUR COMPUTER AND TARGET COMPUTER ARE USING SAME WIFI ********
+**** MAKE SURE YOUR COMPUTER AND TARGET COMPUTER ARE USING SAME WIFI ****
 
 
 <b> Set up web proxy </b>
   
-On your computer, use terminal ifconfig to get the inet address under the same WIFI condition as target
+On your computer, use terminal ifconfig to get the inet address
 
 for example: under CSLabs WIFLI, my inet address is 192.168.11.xx
 
@@ -62,13 +62,10 @@ Write a html file, name it as "replace.html", save the file in the mitmproxy fil
 
 
 # Start Hacking(Two main examples):
-1. Replace pictures
 
-a. Find a random pictures, and name it as "mi.png" (that's what I wrote in replacepic.py file)
+<b> Exmaple 1 Replace pictures </b>
 
-and you have save it in the mitmproxy file(make sure)
-
-b. Run mitmproxy program by using command: 
+cd mitmproxy
 
 . venv/bin/activate
 
@@ -78,15 +75,13 @@ mitmproxy -s replacepic.py
 
 hit ENTER
 
-c. Everytime user enter a url start with http:// the replacepic.py will replace all the images by the image that you chosen
+Everytime user enter a url start with http:// the replacepic.py will replace all the images by the image that you chosen
 
 
 
 2. Replacehtml
 
-a. write a html file and save as("replace.html") it in the mitmproxy file (that's what I wrote in replacehtml.py file)
-
-b Run mitmproxy program by using command:
+cd mitmproxy
 
 . venv/bin/activate
 
@@ -94,9 +89,9 @@ mitmproxy -s replacehtml.py
 
 hit ENTER
 
-c. Everytime user enter a url start with http, user will only get the local html file(replace.html) that you wrote.
+Everytime user enter a url start with http, user will only get the local html file(replace.html) that you wrote.
 
-d. Moreover, if you only want to replace certain url on target side, you can modify the replacehtml.py file in line 14, set a certian condition like ( if flow.request.url.startswith("http://weevil.info"); so everytime, if user trying to access "http://weevil.info", it will response the user by the local html that you wrote.
+Moreover, if you only want to replace certain url on target side, you can modify the replacehtml.py file in line 14, set a certian condition like ( if flow.request.url.startswith("http://weevil.info"); so everytime, if user trying to access "http://weevil.info", it will response the user by the local html that you wrote.
 
 
 
