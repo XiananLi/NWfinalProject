@@ -3,7 +3,7 @@ Download Python man in the middle
 Using the mitm(man in the middle) to inject the package from users and server and modify the request or response content
 
 
-# Set up Mitmproxy
+#### Set up Mitmproxy
 This is the main page to introduce and download the mitmproxy: https://mitmproxy.org/
 
 <b> 1) Install mitmproxy:  </b>
@@ -28,7 +28,7 @@ mitmdump, mitmproxy, mitmweb, pathod, and pathoc (depend on which interface you 
 
 my example will be mainly focus on mitmproxy
 
-# Before Hacking:
+#### Before Hacking:
 
 
 **** MAKE SURE YOUR COMPUTER AND TARGET COMPUTER ARE USING SAME WIFI ****
@@ -53,7 +53,7 @@ Write a html file, name it as "replace.html", save the file in the mitmproxy fil
 **** naming is important, see more specific info in replacehtml.py line 15)  ****
 
 
-# Start Hacking(Two main examples):
+#### Start Hacking(Two main examples):
 
 <b> Exmaple 1 Replace pictures </b>
 
