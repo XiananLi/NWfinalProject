@@ -6,7 +6,7 @@ Using the mitm(man in the middle) to inject the package from users and server an
 # Set up Mitmproxy
 This is the main page to introduce and download the mitmproxy: https://mitmproxy.org/
 
-1) Before install Development Setup required package from python:
+<b> 1) Before install Development Setup required package from python: </b>
 
 Hugo
 
@@ -14,13 +14,13 @@ modd
 
 yarn
 
-2) Install mitmproxy:
+<b> 2) Install mitmproxy:  </b>
 
 brew install mitmproxy
 
 pip3 install mitmproxy
 
-3) Set up to start mitmproxy:
+<b> 3) Set up to start mitmproxy:  </b>
 
 cd mitmproxy
 
