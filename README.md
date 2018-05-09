@@ -35,10 +35,16 @@ So we set up target computer web proxy: 192.168.11.81, and port 8080
 
 a. Random picctures, and name it as "mi.png" (that's what I wrote in replacepic.py file; and save it in the mitmproxy file
 b. Run mitmproxy program by using command: 
+
 . venv/bin/activate
+
 mitmproxy -s replacepic.py
 
+(-s represent support, like extension function on goole chrome)
 
+hit ENTER
+
+c. Everytime user goes to a website by http:// url the program will 
 
 
 
@@ -51,5 +57,6 @@ mitmproxy -s replacepic.py
 
 # References:
 https://mitmproxy.org/
+
 https://github.com/mitmproxy/mitmproxy/blob/master/README.rst
 
